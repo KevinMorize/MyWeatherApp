@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    text-shadow: -2px 2px 3px black;
+}
+
+section{
+   width: -webkit-fill-available;
+}
+
+i.wi{
+    font-size: 5em;
+    line-height: 3em;    
+}
+
+h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 span{
+    font-size: 2em;
+    margin-right: 5%;
+}
+
+h3 i{
+    transform: scale(0.8);
+}
+
+#ville{
+    width: 40%;
+    min-width: 40%;
+    font-size: 4em;
+    display: block;
+    padding: 3%;
+    border: 4px solid white;
+    border-radius: 20px;
+    outline: none;
+    word-break: break-all;
+}
+
+.tooltip{
+    opacity: 0;
+    position: absolute;
+    top:-30%;
+    right: 20%;
+    color: white;
+    background-color: rgba(69, 69, 69, 0.7);
+    border-radius: 10px;
+    padding: 3%;
+    font-size: 1em;
+    transition: opacity .3s, top .5s;
+}
+
+h1:hover .tooltip{
+    top: -50%;
+    opacity: 1;
+}
+
+.rain{
+    background-image: url(https://www.presse-citron.net/app/uploads/2020/02/pluie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.clouds{
+    background-image: url(https://www.pixfan.com/wp-content/uploads/2018/11/camille-seaman-05.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.clear{
+    background-image: url(https://www.progres.net.eg/Upload/News/3-5-2020_13_49_01_Progres_soleil_V.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.snow{
+    background-image: url(https://cdn.futura-sciences.com/buildsv6/images/wide1440/c/5/d/c5d390f48e_116523_neige-montagne.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mist{
+    background-image: url(https://www.numerama.com/content/uploads/2018/11/brouillard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.drizzle{
+    background-image: url(https://www.sortiraparis.com/images/80/1665/555321-intemperies-a-paris-et-en-ile-de-france-vigilance-orange-pluie-inondation-et-ora.jpg);
+    background-size: cover;
+    background-position: center;
+}
