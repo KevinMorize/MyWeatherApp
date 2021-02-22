@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body{
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,9 +49,8 @@ h3 i{
 }
 
 #ville{
-    width: 40%;
-    min-width: 40%;
-    font-size: 4em;
+    min-width: 200px;
+    font-size: 3em;
     display: block;
     padding: 3%;
     border: 4px solid white;
@@ -84,7 +84,7 @@ h1:hover .tooltip{
 }
 
 .clouds{
-    background-image: url(https://www.pixfan.com/wp-content/uploads/2018/11/camille-seaman-05.jpg);
+    background-image: url(https://eiwawar.files.wordpress.com/2017/10/hortobc3a1gy-6.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -111,4 +111,40 @@ h1:hover .tooltip{
     background-image: url(https://www.sortiraparis.com/images/80/1665/555321-intemperies-a-paris-et-en-ile-de-france-vigilance-orange-pluie-inondation-et-ora.jpg);
     background-size: cover;
     background-position: center;
+}
+
+@media all and (max-width : 960px){
+    body{
+        align-items: flex-start;
+    }
+    
+    section{
+        width: min-content;
+    }
+
+    h1{
+        margin: 25% 0 25% 0;
+    }
+
+    .tooltip{
+        font-size: 0.7em;
+        right: 0;
+    }
+
+    #ville{
+        font-size: 2.5em;
+    }
+
+    h2{
+        font-size: 2.5em;
+        margin: 25% 0 35% 0;
+    }
+
+    i.wi{
+        line-height: 1em;
+    }
+
+    h3{
+        font-size: 0.8em;
+    }
 }
